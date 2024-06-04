@@ -13,7 +13,7 @@ target/
 logs/
 
 # idea
-#.idea/
+.idea/
 *.iml
 .murphy.yml
 
