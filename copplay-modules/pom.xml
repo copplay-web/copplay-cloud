@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.copplay</groupId>
+        <artifactId>copplay-cloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>copplay-modules</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>copplay-web</module>
+        <module>copplay-biz</module>
+        <module>snowy-plugin-auth</module>
+        <module>snowy-plugin-biz</module>
+        <module>snowy-plugin-client</module>
+        <module>snowy-plugin-dev</module>
+        <module>snowy-plugin-gen</module>
+        <module>snowy-plugin-mobile</module>
+        <module>snowy-plugin-sys</module>
+        <module>snowy-plugin-mocker</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

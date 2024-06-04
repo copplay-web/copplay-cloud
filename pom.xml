@@ -6,18 +6,19 @@
     <groupId>com.copplay</groupId>
     <artifactId>copplay-cloud</artifactId>
     <name>copplay-cloud</name>
-    <version>3.0.0</version>
+    <version>1.0.0</version>
     <description>snowy-cloud快速开发平台</description>
     <packaging>pom</packaging>
     <!--    项目模块    -->
     <modules>
         <module>copplay-cloud-common</module>
-        <module>copplay-cloud-modules</module>
+        <module>copplay-modules</module>
         <module>copplay-cloud-router</module>
         <module>copplay-cloud-register</module>
         <module>copplay-cloud-sentinel</module>
         <module>copplay-cloud-schedule</module>
         <module>copplay-cloud-system</module>
+        <module>copplay-modules/copplay-admin</module>
     </modules>
     <!--    属性信息配置  -->
     <properties>
@@ -30,7 +31,7 @@
         <skipTests>true</skipTests>
 
         <!-- snowy-base -->
-        <snowy.version>3.0.0</snowy.version>
+        <snowy.version>1.0.0</snowy.version>
         <spring.boot-version>3.2.1</spring.boot-version>
         <spring-framework.version>6.1.2</spring-framework.version>
         <spring.cloud-version>2023.0.1</spring.cloud-version>

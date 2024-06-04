@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+   <parent>
+        <groupId>com.copplay</groupId>
+        <artifactId>copplay-modules</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>snowy-plugin-gen</artifactId>
+    <packaging>pom</packaging>
+    <description>代码生成插件</description>
+
+    <modules>
+        <!-- 代码生成插件api接口 -->
+        <module>snowy-plugin-gen-api</module>
+
+        <!-- 代码生成插件func实现 -->
+        <module>snowy-plugin-gen-func</module>
+    </modules>
+
+</project>
