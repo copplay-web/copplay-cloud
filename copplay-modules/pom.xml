@@ -21,7 +21,6 @@
         <module>snowy-plugin-gen</module>
         <module>snowy-plugin-mobile</module>
         <module>snowy-plugin-sys</module>
-        <module>snowy-plugin-mocker</module>
     </modules>
 
     <properties>
