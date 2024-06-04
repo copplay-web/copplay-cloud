@@ -1,11 +1,11 @@
 version: '3'
 services:
   copplay-cloud-mysql:
-    build:
-      context: docs/db
+#    build:
+#      context: docs/db
     environment:
       MYSQL_ROOT_HOST: "%"
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 123456
     restart: always
     container_name: copplay-cloud-mysql
     image: mysql
@@ -24,50 +24,30 @@ services:
     networks:
       - spring_cloud_default
 
-  copplay-register:
-    build:
-      context: ./copplay-register
-    restart: always
-    ports:
-      - 8848:8848
-      - 9848:9848
-    container_name: copplay-register
-    hostname: copplay-register
-    image: copplay-register
-    networks:
-      - spring_cloud_default
-
-  copplay-router:
-    build:
-      context: ./copplay-router
-    restart: always
-    ports:
-      - 9999:9999
-    container_name: copplay-router
-    hostname: copplay-router
-    image: copplay-router
-    networks:
-      - spring_cloud_default
-
-  copplay-system:
-    build:
-      context: ./copplay-system
-    restart: always
-    container_name: copplay-system
-    hostname: copplay-system
-    image: copplay-system
-    networks:
-      - spring_cloud_default
-
-  copplay-admin:
-    build:
-      context: ./copplay-modules/copplay-admin
-    restart: always
-    container_name: copplay-admin
-    hostname: copplay-admin
-    image: copplay-admin
-    networks:
-      - spring_cloud_default
+#  copplay-cloud-register:
+#    build:
+#      context: ./copplay-cloud-register
+#    restart: always
+#    ports:
+#      - 8848:8848
+#      - 9848:9848
+#    container_name: copplay-cloud-register
+#    hostname: copplay-cloud-register
+#    image: copplay-cloud-register
+#    networks:
+#      - spring_cloud_default
+#
+#  copplay-cloud-router:
+#    build:
+#      context: ./copplay-cloud-router
+#    restart: always
+#    ports:
+#      - 9999:9999
+#    container_name: copplay-cloud-router
+#    hostname: copplay-cloud-router
+#    image: copplay-cloud-router
+#    networks:
+#      - spring_cloud_default
 
 networks:
   spring_cloud_default:

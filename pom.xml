@@ -2,20 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <!--项目配置-->
     <groupId>com.copplay</groupId>
     <artifactId>copplay-cloud</artifactId>
     <name>copplay-cloud</name>
     <version>3.0.0</version>
     <description>snowy-cloud快速开发平台</description>
     <packaging>pom</packaging>
-
-<!--    <parent>-->
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--        <version>3.2.1</version>-->
-<!--    </parent>-->
-
+    <!--    项目模块    -->
+    <modules>
+        <module>copplay-cloud-common</module>
+        <module>copplay-cloud-modules</module>
+        <module>copplay-cloud-router</module>
+        <module>copplay-cloud-register</module>
+        <module>copplay-cloud-sentinel</module>
+        <module>copplay-cloud-schedule</module>
+        <module>copplay-cloud-system</module>
+    </modules>
+    <!--    属性信息配置  -->
     <properties>
         <!-- maven base -->
         <java.version>17</java.version>
@@ -105,19 +109,7 @@
 
     </properties>
 
-    <modules>
-        <!-- 基础开发模块 -->
-        <module>snowy-base</module>
 
-        <!-- 业务应用启动模块 -->
-        <module>snowy-modules</module>
-
-        <!-- 业务插件模块 -->
-        <module>snowy-plugin</module>
-
-        <!-- 依赖服务启动模块 -->
-        <module>snowy-server</module>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
@@ -125,7 +117,7 @@
             <!-- snowy-common -->
             <dependency>
                 <groupId>com.copplay</groupId>
-                <artifactId>snowy-common</artifactId>
+                <artifactId>copplay-cloud-common</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
