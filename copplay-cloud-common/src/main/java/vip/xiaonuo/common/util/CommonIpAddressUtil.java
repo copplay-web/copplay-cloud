@@ -19,7 +19,7 @@ import cn.hutool.extra.servlet.JakartaServletUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.lionsoul.ip2region.xdb.Searcher;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 import java.io.File;
 import java.io.InputStream;

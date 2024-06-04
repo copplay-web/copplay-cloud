@@ -18,7 +18,7 @@ import cn.hutool.extra.mail.MailAccount;
 import cn.hutool.extra.mail.MailUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 import java.io.File;

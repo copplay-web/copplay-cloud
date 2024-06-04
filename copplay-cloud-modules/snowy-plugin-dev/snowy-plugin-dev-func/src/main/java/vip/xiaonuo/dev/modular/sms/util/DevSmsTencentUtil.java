@@ -22,7 +22,7 @@ import com.tencentcloudapi.sms.v20210111.models.SendSmsRequest;
 import com.tencentcloudapi.sms.v20210111.models.SendSmsResponse;
 import com.tencentcloudapi.sms.v20210111.models.SendStatus;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 /**

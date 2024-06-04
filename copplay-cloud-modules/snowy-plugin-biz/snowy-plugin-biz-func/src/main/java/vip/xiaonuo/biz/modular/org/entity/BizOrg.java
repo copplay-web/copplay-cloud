@@ -21,7 +21,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
 import vip.xiaonuo.biz.modular.user.entity.BizUser;
-import vip.xiaonuo.common.pojo.CommonEntity;
+import vip.xiaonuo.common.domain.CommonEntity;
 
 /**
  * 机构实体

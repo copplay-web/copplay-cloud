@@ -35,9 +35,9 @@ import vip.xiaonuo.client.modular.user.param.ClientUserIdParam;
 import vip.xiaonuo.client.modular.user.param.ClientUserPageParam;
 import vip.xiaonuo.client.modular.user.result.ClientLoginUser;
 import vip.xiaonuo.client.modular.user.service.ClientUserService;
-import vip.xiaonuo.common.enums.CommonSortOrderEnum;
-import vip.xiaonuo.common.exception.CommonException;
-import vip.xiaonuo.common.page.CommonPageRequest;
+import vip.xiaonuo.common.constant.CommonSortOrderEnum;
+import vip.xiaonuo.common.CommonException;
+import vip.xiaonuo.common.domain.CommonPageRequest;
 import vip.xiaonuo.common.util.*;
 import vip.xiaonuo.dev.api.DevConfigApi;
 

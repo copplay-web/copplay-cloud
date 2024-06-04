@@ -3,8 +3,8 @@ package vip.xiaonuo.auth.feign;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import vip.xiaonuo.common.consts.FeignConstant;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.constant.FeignConstant;
+import vip.xiaonuo.common.domain.CommonResult;
 
 /**
  * AuthFeign

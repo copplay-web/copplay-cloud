@@ -19,7 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * HttpServlet工具类，获取当前request和response

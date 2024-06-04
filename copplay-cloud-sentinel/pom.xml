@@ -329,7 +329,7 @@
                 <version>${spring-boot-dependencies.version}</version>
                 <configuration>
                     <includeSystemScope>true</includeSystemScope>
-                    <mainClass>com.alibaba.csp.sentinel.dashboard.SnowySentinelApp</mainClass>
+                    <mainClass>com.alibaba.csp.sentinel.dashboard.SentinelApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

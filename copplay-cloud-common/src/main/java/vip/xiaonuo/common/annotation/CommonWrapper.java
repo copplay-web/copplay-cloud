@@ -12,7 +12,7 @@
  */
 package vip.xiaonuo.common.annotation;
 
-import vip.xiaonuo.common.pojo.CommonWrapperInterface;
+import vip.xiaonuo.common.domain.CommonWrapperInterface;
 
 import java.lang.annotation.*;
 

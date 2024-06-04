@@ -24,7 +24,7 @@ import org.dromara.sms4j.core.factory.SmsFactory;
 import org.dromara.sms4j.dingzhong.config.DingZhongConfig;
 import org.dromara.sms4j.javase.config.SEInitializer;
 import org.dromara.sms4j.provider.config.SmsConfig;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 /**

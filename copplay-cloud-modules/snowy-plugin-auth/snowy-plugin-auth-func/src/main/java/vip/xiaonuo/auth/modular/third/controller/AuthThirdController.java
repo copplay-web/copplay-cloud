@@ -27,7 +27,7 @@ import vip.xiaonuo.auth.modular.third.param.AuthThirdRenderParam;
 import vip.xiaonuo.auth.modular.third.param.AuthThirdUserPageParam;
 import vip.xiaonuo.auth.modular.third.result.AuthThirdRenderResult;
 import vip.xiaonuo.auth.modular.third.service.AuthThirdService;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.domain.CommonResult;
 
 /**
  * 第三方登录控制器

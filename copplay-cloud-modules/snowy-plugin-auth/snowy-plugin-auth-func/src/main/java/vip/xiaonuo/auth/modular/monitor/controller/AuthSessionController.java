@@ -30,7 +30,7 @@ import vip.xiaonuo.auth.modular.monitor.result.AuthSessionAnalysisResult;
 import vip.xiaonuo.auth.modular.monitor.result.AuthSessionPageResult;
 import vip.xiaonuo.auth.modular.monitor.service.AuthSessionService;
 import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.domain.CommonResult;
 
 import java.util.List;
 

@@ -17,7 +17,7 @@ import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.http.ContentType;
 import cn.hutool.json.JSONUtil;
 import jakarta.servlet.http.HttpServletResponse;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.domain.CommonResult;
 
 import java.io.IOException;
 

@@ -24,8 +24,8 @@ import lombok.Getter;
 import lombok.Setter;
 import vip.xiaonuo.biz.modular.org.entity.BizOrg;
 import vip.xiaonuo.biz.modular.position.entity.BizPosition;
-import vip.xiaonuo.common.handler.CommonSm4CbcTypeHandler;
-import vip.xiaonuo.common.pojo.CommonEntity;
+import vip.xiaonuo.common.CommonSm4CbcTypeHandler;
+import vip.xiaonuo.common.domain.CommonEntity;
 
 import java.util.Date;
 

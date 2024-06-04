@@ -33,9 +33,9 @@ import vip.xiaonuo.biz.modular.dict.mapper.BizDictMapper;
 import vip.xiaonuo.biz.modular.dict.param.BizDictEditParam;
 import vip.xiaonuo.biz.modular.dict.param.BizDictPageParam;
 import vip.xiaonuo.biz.modular.dict.service.BizDictService;
-import vip.xiaonuo.common.enums.CommonSortOrderEnum;
-import vip.xiaonuo.common.exception.CommonException;
-import vip.xiaonuo.common.page.CommonPageRequest;
+import vip.xiaonuo.common.constant.CommonSortOrderEnum;
+import vip.xiaonuo.common.CommonException;
+import vip.xiaonuo.common.domain.CommonPageRequest;
 
 import java.util.List;
 import java.util.Map;

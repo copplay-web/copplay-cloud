@@ -16,8 +16,8 @@ import cn.hutool.core.util.StrUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
-import vip.xiaonuo.common.exception.CommonException;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.CommonException;
+import vip.xiaonuo.common.domain.CommonResult;
 import vip.xiaonuo.dev.modular.sse.enums.DevSseEmitterParameterEnum;
 
 import java.util.Map;

@@ -13,7 +13,7 @@
 package vip.xiaonuo.dev.api;
 
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
-import vip.xiaonuo.common.sse.CommonSseParam;
+import vip.xiaonuo.common.CommonSseParam;
 
 import java.util.function.Consumer;
 

@@ -13,7 +13,7 @@
 package vip.xiaonuo.sys.modular.org.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 组织分类枚举

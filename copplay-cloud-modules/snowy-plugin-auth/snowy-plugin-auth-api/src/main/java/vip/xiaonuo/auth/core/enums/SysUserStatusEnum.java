@@ -13,7 +13,7 @@
 package vip.xiaonuo.auth.core.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 用户状态枚举

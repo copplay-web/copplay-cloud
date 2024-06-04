@@ -13,7 +13,7 @@
 package vip.xiaonuo.auth.modular.third.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 第三方登录平台枚举

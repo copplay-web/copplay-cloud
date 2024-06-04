@@ -24,7 +24,7 @@ import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.ses.v20201002.SesClient;
 import com.tencentcloudapi.ses.v20201002.models.*;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 import java.util.List;

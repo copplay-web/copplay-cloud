@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.auth.core.enums.SaClientTypeEnum;
 import vip.xiaonuo.auth.modular.sso.param.AuthSsoTicketLoginParam;
 import vip.xiaonuo.auth.modular.sso.service.AuthSsoService;
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.domain.CommonResult;
 
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;

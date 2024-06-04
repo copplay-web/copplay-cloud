@@ -13,7 +13,7 @@
 package vip.xiaonuo.dev.modular.dict.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 字典分类枚举

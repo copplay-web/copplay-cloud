@@ -13,7 +13,7 @@
 package vip.xiaonuo.sys.modular.position.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 职位分类枚举

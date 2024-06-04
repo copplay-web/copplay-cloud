@@ -1,6 +1,6 @@
 package vip.xiaonuo.auth.api;
 
-import vip.xiaonuo.common.pojo.CommonResult;
+import vip.xiaonuo.common.domain.CommonResult;
 
 /**
  * AuthInnerApi

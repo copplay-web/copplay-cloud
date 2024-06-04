@@ -13,7 +13,7 @@
 package vip.xiaonuo.sys.modular.role.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.exception.CommonException;
+import vip.xiaonuo.common.CommonException;
 
 /**
  * 给角色授权权限对应的数据范围枚举

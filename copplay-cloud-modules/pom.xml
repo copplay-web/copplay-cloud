@@ -12,8 +12,8 @@
     <artifactId>copplay-cloud-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>snowy-web-app</module>
-        <module>snowy-biz-app</module>
+        <module>copplay-web</module>
+        <module>copplay-biz</module>
         <module>snowy-plugin-auth</module>
         <module>snowy-plugin-biz</module>
         <module>snowy-plugin-client</module>
