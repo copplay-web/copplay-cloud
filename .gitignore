@@ -13,7 +13,7 @@ target/
 logs/
 
 # idea
-../snowy-cloud/.idea/
+#.idea/
 *.iml
 .murphy.yml
 
