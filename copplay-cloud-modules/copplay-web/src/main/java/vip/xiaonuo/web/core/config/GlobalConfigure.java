@@ -64,17 +64,17 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import vip.xiaonuo.auth.core.util.StpClientUtil;
-import vip.xiaonuo.common.annotation.CommonNoRepeat;
-import vip.xiaonuo.common.annotation.CommonWrapper;
-import vip.xiaonuo.common.CommonCacheOperator;
-import vip.xiaonuo.common.constant.CommonDeleteFlagEnum;
-import vip.xiaonuo.common.constant.SysBuildInEnum;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.CommonDataChangeEventCenter;
-import vip.xiaonuo.common.CommonDataChangeListener;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.domain.CommonWrapperInterface;
-import vip.xiaonuo.common.util.CommonTimeFormatUtil;
+import com.copplay.common.annotation.CommonNoRepeat;
+import com.copplay.common.annotation.CommonWrapper;
+import com.copplay.common.CommonCacheOperator;
+import com.copplay.common.constant.CommonDeleteFlagEnum;
+import com.copplay.common.constant.SysBuildInEnum;
+import com.copplay.common.CommonException;
+import com.copplay.common.CommonDataChangeEventCenter;
+import com.copplay.common.CommonDataChangeListener;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.domain.CommonWrapperInterface;
+import com.copplay.common.util.CommonTimeFormatUtil;
 import vip.xiaonuo.web.core.handler.GlobalExceptionUtil;
 
 import java.lang.reflect.Array;
@@ -401,7 +401,7 @@ public class GlobalConfigure implements WebMvcConfigurer {
          * @author xuyuxiang
          * @date 2022/9/15 21:27
          */
-        @Pointcut("@annotation(vip.xiaonuo.common.annotation.CommonWrapper)")
+        @Pointcut("@annotation(com.copplay.common.annotation.CommonWrapper)")
         private void wrapperPointcut() {
 
         }

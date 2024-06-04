@@ -32,9 +32,9 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.multipart.support.MissingServletRequestPartException;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.util.CommonServletUtil;
+import com.copplay.common.CommonException;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.util.CommonServletUtil;
 
 import java.util.List;
 import java.util.Set;

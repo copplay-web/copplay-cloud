@@ -3,7 +3,7 @@ package com.xxl.job.admin;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import vip.xiaonuo.common.AppStartupListener;
+import com.copplay.common.AppStartupListener;
 
 
 @SpringBootApplication

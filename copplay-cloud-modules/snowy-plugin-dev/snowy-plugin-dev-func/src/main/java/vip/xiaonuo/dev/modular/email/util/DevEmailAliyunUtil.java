@@ -19,7 +19,7 @@ import com.aliyun.dm20151123.models.BatchSendMailRequest;
 import com.aliyun.dm20151123.models.SingleSendMailRequest;
 import com.aliyun.teaopenapi.models.Config;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 /**

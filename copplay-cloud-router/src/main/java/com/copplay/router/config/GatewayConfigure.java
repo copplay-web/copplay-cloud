@@ -51,7 +51,7 @@ import vip.xiaonuo.auth.core.enums.SaClientTypeEnum;
 import vip.xiaonuo.auth.core.util.StpClientLoginUserUtil;
 import vip.xiaonuo.auth.core.util.StpClientUtil;
 import vip.xiaonuo.auth.core.util.StpLoginUserUtil;
-import vip.xiaonuo.common.constant.SysBuildInEnum;
+import com.copplay.common.constant.SysBuildInEnum;
 
 import java.util.ArrayList;
 import java.util.List;

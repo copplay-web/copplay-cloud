@@ -29,8 +29,8 @@ import vip.xiaonuo.auth.modular.monitor.param.AuthSessionPageParam;
 import vip.xiaonuo.auth.modular.monitor.result.AuthSessionAnalysisResult;
 import vip.xiaonuo.auth.modular.monitor.result.AuthSessionPageResult;
 import vip.xiaonuo.auth.modular.monitor.service.AuthSessionService;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.util.List;
 

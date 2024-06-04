@@ -15,7 +15,7 @@ package vip.xiaonuo.biz.core.handler;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.domain.CommonResult;
 
 /**
  * 全局异常处理器

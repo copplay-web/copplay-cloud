@@ -13,7 +13,7 @@
 package vip.xiaonuo.sys.modular.role.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 
 /**
  * 角色分类枚举

@@ -18,7 +18,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 import vip.xiaonuo.auth.core.util.StpLoginUserUtil;
-import vip.xiaonuo.common.domain.CommonPageRequest;
+import com.copplay.common.domain.CommonPageRequest;
 import vip.xiaonuo.dev.api.DevLogApi;
 import vip.xiaonuo.dev.modular.log.entity.DevLog;
 import vip.xiaonuo.dev.modular.log.enums.DevLogCategoryEnum;

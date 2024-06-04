@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.auth.feign.AuthInnerFeign;
 import vip.xiaonuo.auth.modular.login.provider.AuthInnerProvider;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.domain.CommonResult;
 
 /**
  * AuthInnerFeignProvider

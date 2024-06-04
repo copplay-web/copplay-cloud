@@ -30,7 +30,7 @@ import oshi.hardware.HardwareAbstractionLayer;
 import oshi.software.os.FileSystem;
 import oshi.software.os.OperatingSystem;
 import oshi.util.Util;
-import vip.xiaonuo.common.util.CommonNetWorkInfoUtil;
+import com.copplay.common.util.CommonNetWorkInfoUtil;
 import vip.xiaonuo.dev.modular.monitor.result.DevMonitorServerResult;
 import vip.xiaonuo.dev.modular.monitor.service.DevMonitorService;
 

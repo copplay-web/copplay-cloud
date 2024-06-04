@@ -29,8 +29,8 @@ import vip.xiaonuo.biz.modular.org.entity.BizOrg;
 import vip.xiaonuo.biz.modular.org.param.*;
 import vip.xiaonuo.biz.modular.org.service.BizOrgService;
 import vip.xiaonuo.biz.modular.user.entity.BizUser;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.util.List;
 

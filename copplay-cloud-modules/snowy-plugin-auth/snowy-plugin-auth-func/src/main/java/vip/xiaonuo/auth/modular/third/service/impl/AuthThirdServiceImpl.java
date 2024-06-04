@@ -45,9 +45,9 @@ import vip.xiaonuo.auth.modular.third.param.AuthThirdRenderParam;
 import vip.xiaonuo.auth.modular.third.param.AuthThirdUserPageParam;
 import vip.xiaonuo.auth.modular.third.result.AuthThirdRenderResult;
 import vip.xiaonuo.auth.modular.third.service.AuthThirdService;
-import vip.xiaonuo.common.constant.CommonSortOrderEnum;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.domain.CommonPageRequest;
+import com.copplay.common.constant.CommonSortOrderEnum;
+import com.copplay.common.CommonException;
+import com.copplay.common.domain.CommonPageRequest;
 import vip.xiaonuo.dev.api.DevConfigApi;
 
 /**

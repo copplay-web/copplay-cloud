@@ -14,7 +14,7 @@ package vip.xiaonuo.dev.modular.job.task;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import vip.xiaonuo.common.CommonTimerTaskRunner;
+import com.copplay.common.CommonTimerTaskRunner;
 
 /**
  * 定时器的一个示例

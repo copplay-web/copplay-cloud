@@ -33,8 +33,8 @@ import vip.xiaonuo.biz.modular.user.entity.BizUser;
 import vip.xiaonuo.biz.modular.user.param.*;
 import vip.xiaonuo.biz.modular.user.result.BizUserRoleResult;
 import vip.xiaonuo.biz.modular.user.service.BizUserService;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.io.IOException;
 import java.util.List;

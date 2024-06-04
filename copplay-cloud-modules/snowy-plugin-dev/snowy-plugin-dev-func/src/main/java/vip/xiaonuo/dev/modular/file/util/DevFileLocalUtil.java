@@ -21,7 +21,7 @@ import cn.hutool.json.JSONUtil;
 import cn.hutool.system.SystemUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 import vip.xiaonuo.dev.api.DevConfigApi;
 import vip.xiaonuo.dev.modular.file.enums.DevFileBucketAuthEnum;
 

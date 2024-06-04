@@ -29,8 +29,8 @@ import vip.xiaonuo.client.modular.user.param.ClientUserEditParam;
 import vip.xiaonuo.client.modular.user.param.ClientUserIdParam;
 import vip.xiaonuo.client.modular.user.param.ClientUserPageParam;
 import vip.xiaonuo.client.modular.user.service.ClientUserService;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.util.List;
 

@@ -41,11 +41,11 @@ import vip.xiaonuo.biz.modular.position.entity.BizPosition;
 import vip.xiaonuo.biz.modular.position.service.BizPositionService;
 import vip.xiaonuo.biz.modular.user.entity.BizUser;
 import vip.xiaonuo.biz.modular.user.service.BizUserService;
-import vip.xiaonuo.common.CommonCacheOperator;
-import vip.xiaonuo.common.constant.CommonSortOrderEnum;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.CommonDataChangeEventCenter;
-import vip.xiaonuo.common.domain.CommonPageRequest;
+import com.copplay.common.CommonCacheOperator;
+import com.copplay.common.constant.CommonSortOrderEnum;
+import com.copplay.common.CommonException;
+import com.copplay.common.CommonDataChangeEventCenter;
+import com.copplay.common.domain.CommonPageRequest;
 import vip.xiaonuo.sys.api.SysRoleApi;
 
 import java.util.Iterator;

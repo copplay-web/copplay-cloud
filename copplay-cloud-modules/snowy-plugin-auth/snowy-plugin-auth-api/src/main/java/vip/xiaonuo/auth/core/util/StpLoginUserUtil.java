@@ -15,7 +15,7 @@ package vip.xiaonuo.auth.core.util;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.hutool.core.collection.CollectionUtil;
 import vip.xiaonuo.auth.core.pojo.SaBaseLoginUser;
-import vip.xiaonuo.common.util.CommonServletUtil;
+import com.copplay.common.util.CommonServletUtil;
 
 import java.util.List;
 

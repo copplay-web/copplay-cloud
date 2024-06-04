@@ -13,7 +13,7 @@
 package vip.xiaonuo.client.modular.user.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 
 /**
  * C端用户状态枚举

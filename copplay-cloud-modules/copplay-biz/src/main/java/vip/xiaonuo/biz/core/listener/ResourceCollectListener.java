@@ -25,8 +25,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.mvc.condition.PatternsRequestCondition;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
-import vip.xiaonuo.common.CommonCacheOperator;
-import vip.xiaonuo.common.constant.CacheConstant;
+import com.copplay.common.CommonCacheOperator;
+import com.copplay.common.constant.CacheConstant;
 
 import jakarta.annotation.Resource;
 import java.util.List;

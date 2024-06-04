@@ -28,8 +28,8 @@ import vip.xiaonuo.biz.modular.dict.entity.BizDict;
 import vip.xiaonuo.biz.modular.dict.param.BizDictEditParam;
 import vip.xiaonuo.biz.modular.dict.param.BizDictPageParam;
 import vip.xiaonuo.biz.modular.dict.service.BizDictService;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.util.List;
 

@@ -18,9 +18,9 @@ import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 import vip.xiaonuo.auth.core.pojo.SaBaseLoginUser;
 import vip.xiaonuo.auth.core.util.StpLoginUserUtil;
-import vip.xiaonuo.common.CommonCacheOperator;
-import vip.xiaonuo.common.constant.SysDataTypeEnum;
-import vip.xiaonuo.common.CommonDataChangeListener;
+import com.copplay.common.CommonCacheOperator;
+import com.copplay.common.constant.SysDataTypeEnum;
+import com.copplay.common.CommonDataChangeListener;
 
 import java.util.List;
 

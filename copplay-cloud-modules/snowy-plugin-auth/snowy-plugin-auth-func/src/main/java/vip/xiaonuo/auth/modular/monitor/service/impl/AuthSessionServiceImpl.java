@@ -36,8 +36,8 @@ import vip.xiaonuo.auth.modular.monitor.param.AuthSessionPageParam;
 import vip.xiaonuo.auth.modular.monitor.result.AuthSessionAnalysisResult;
 import vip.xiaonuo.auth.modular.monitor.result.AuthSessionPageResult;
 import vip.xiaonuo.auth.modular.monitor.service.AuthSessionService;
-import vip.xiaonuo.common.domain.CommonPageRequest;
-import vip.xiaonuo.common.util.CommonTimeFormatUtil;
+import com.copplay.common.domain.CommonPageRequest;
+import com.copplay.common.util.CommonTimeFormatUtil;
 
 import java.util.Comparator;
 import java.util.Date;

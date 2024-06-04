@@ -24,9 +24,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import vip.xiaonuo.auth.feign.AuthInnerFeign;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.util.CommonCryptogramUtil;
-import vip.xiaonuo.common.util.CommonThreadLocalUtil;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.util.CommonCryptogramUtil;
+import com.copplay.common.util.CommonThreadLocalUtil;
 import vip.xiaonuo.mocker.token.annotation.CommonMockerToken;
 import vip.xiaonuo.mocker.token.core.consts.MockerTokenConstant;
 

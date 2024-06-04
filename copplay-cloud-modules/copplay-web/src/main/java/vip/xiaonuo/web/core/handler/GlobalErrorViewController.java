@@ -17,8 +17,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.CommonException;
+import com.copplay.common.domain.CommonResult;
 
 /**
  * 全局异常页面处理器，覆盖默认的Whitelabel Error Page

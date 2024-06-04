@@ -7,7 +7,7 @@ import vip.xiaonuo.auth.api.AuthInnerApi;
 import vip.xiaonuo.auth.core.enums.SaClientTypeEnum;
 import vip.xiaonuo.auth.modular.login.param.AuthAccountPasswordLoginParam;
 import vip.xiaonuo.auth.modular.login.service.AuthService;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.domain.CommonResult;
 
 import jakarta.annotation.Resource;
 

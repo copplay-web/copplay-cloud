@@ -40,10 +40,10 @@ import vip.xiaonuo.auth.modular.login.param.AuthGetPhoneValidCodeParam;
 import vip.xiaonuo.auth.modular.login.param.AuthPhoneValidCodeLoginParam;
 import vip.xiaonuo.auth.modular.login.result.AuthPicValidCodeResult;
 import vip.xiaonuo.auth.modular.login.service.AuthService;
-import vip.xiaonuo.common.CommonCacheOperator;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.util.CommonCryptogramUtil;
-import vip.xiaonuo.common.util.CommonEmailUtil;
+import com.copplay.common.CommonCacheOperator;
+import com.copplay.common.CommonException;
+import com.copplay.common.util.CommonCryptogramUtil;
+import com.copplay.common.util.CommonEmailUtil;
 import vip.xiaonuo.dev.api.DevConfigApi;
 import vip.xiaonuo.dev.api.DevSmsApi;
 

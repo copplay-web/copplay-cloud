@@ -15,7 +15,7 @@ package vip.xiaonuo.dev.feign;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import vip.xiaonuo.common.constant.FeignConstant;
+import com.copplay.common.constant.FeignConstant;
 
 /**
  * 配置Feign接口

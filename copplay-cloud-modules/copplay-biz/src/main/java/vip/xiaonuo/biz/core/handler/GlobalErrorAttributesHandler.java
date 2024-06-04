@@ -20,9 +20,9 @@ import org.springframework.boot.web.error.ErrorAttributeOptions;
 import org.springframework.boot.web.servlet.error.DefaultErrorAttributes;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.WebRequest;
-import vip.xiaonuo.common.CommonException;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.util.CommonServletUtil;
+import com.copplay.common.CommonException;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.util.CommonServletUtil;
 
 import java.util.Map;
 

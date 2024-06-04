@@ -28,8 +28,8 @@ import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.biz.modular.position.entity.BizPosition;
 import vip.xiaonuo.biz.modular.position.param.*;
 import vip.xiaonuo.biz.modular.position.service.BizPositionService;
-import vip.xiaonuo.common.annotation.CommonLog;
-import vip.xiaonuo.common.domain.CommonResult;
+import com.copplay.common.annotation.CommonLog;
+import com.copplay.common.domain.CommonResult;
 
 import java.util.List;
 

@@ -17,8 +17,8 @@ import cn.hutool.core.util.IdUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.CommonSseParam;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.CommonSseParam;
 import vip.xiaonuo.dev.modular.sse.service.DevSseEmitterService;
 import vip.xiaonuo.dev.modular.sse.util.DevSseCacheUtil;
 

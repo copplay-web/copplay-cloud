@@ -16,7 +16,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
-import vip.xiaonuo.common.domain.CommonEntity;
+import com.copplay.common.domain.CommonEntity;
 
 /**
  * 站内信实体

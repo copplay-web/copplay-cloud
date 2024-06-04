@@ -18,7 +18,7 @@ import jakarta.annotation.Resource;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
-import vip.xiaonuo.common.CommonSseParam;
+import com.copplay.common.CommonSseParam;
 import vip.xiaonuo.dev.modular.sse.service.DevSseEmitterService;
 
 import java.util.function.Consumer;

@@ -13,7 +13,7 @@
 package vip.xiaonuo.dev.modular.job.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 
 /**
  * 定时任务分类枚举

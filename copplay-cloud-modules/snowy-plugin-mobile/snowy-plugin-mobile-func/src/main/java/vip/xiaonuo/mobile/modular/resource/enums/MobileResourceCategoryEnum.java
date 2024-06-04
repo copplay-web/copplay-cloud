@@ -13,7 +13,7 @@
 package vip.xiaonuo.mobile.modular.resource.enums;
 
 import lombok.Getter;
-import vip.xiaonuo.common.CommonException;
+import com.copplay.common.CommonException;
 
 /**
  * 移动端资源分类枚举

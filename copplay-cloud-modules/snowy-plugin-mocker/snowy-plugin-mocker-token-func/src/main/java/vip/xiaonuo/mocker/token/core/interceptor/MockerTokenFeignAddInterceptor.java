@@ -16,7 +16,7 @@ import cn.hutool.core.util.StrUtil;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.util.CommonThreadLocalUtil;
+import com.copplay.common.util.CommonThreadLocalUtil;
 import vip.xiaonuo.mocker.token.core.consts.MockerTokenConstant;
 
 

@@ -24,7 +24,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import vip.xiaonuo.auth.core.pojo.SaBaseLoginUser;
 import vip.xiaonuo.auth.core.util.StpLoginUserUtil;
-import vip.xiaonuo.common.annotation.CommonLog;
+import com.copplay.common.annotation.CommonLog;
 import vip.xiaonuo.dev.modular.log.util.DevLogUtil;
 
 import java.lang.reflect.Method;
@@ -46,7 +46,7 @@ public class DevLogAop {
      * @author xuyuxiang
      * @date 2020/3/23 17:10
      */
-    @Pointcut("@annotation(vip.xiaonuo.common.annotation.CommonLog)")
+    @Pointcut("@annotation(com.copplay.common.annotation.CommonLog)")
     private void getLogPointCut() {
     }
 

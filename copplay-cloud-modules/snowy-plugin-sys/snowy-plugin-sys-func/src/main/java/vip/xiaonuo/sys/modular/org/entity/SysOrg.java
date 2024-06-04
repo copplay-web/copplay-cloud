@@ -20,7 +20,7 @@ import com.fhs.core.trans.constant.TransType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
-import vip.xiaonuo.common.domain.CommonEntity;
+import com.copplay.common.domain.CommonEntity;
 import vip.xiaonuo.sys.modular.user.entity.SysUser;
 
 /**

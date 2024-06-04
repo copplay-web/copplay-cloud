@@ -15,8 +15,8 @@ package com.copplay.router.core.util;
 import cn.dev33.satoken.exception.*;
 import cn.hutool.http.HttpStatus;
 import lombok.extern.slf4j.Slf4j;
-import vip.xiaonuo.common.domain.CommonResult;
-import vip.xiaonuo.common.util.CommonServletUtil;
+import com.copplay.common.domain.CommonResult;
+import com.copplay.common.util.CommonServletUtil;
 
 @Slf4j
 public class AuthExceptionUtil {
