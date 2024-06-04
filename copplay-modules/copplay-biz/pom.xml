@@ -123,11 +123,11 @@
         </dependency>
 
         <!-- 业务功能插件 -->
-        <dependency>
-            <groupId>com.copplay</groupId>
-            <artifactId>snowy-plugin-biz-func</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.copplay</groupId>-->
+<!--            <artifactId>snowy-plugin-biz-func</artifactId>-->
+<!--            <version>${project.parent.version}</version>-->
+<!--        </dependency>-->
 
         <!-- 系统功能插件Feign接口 -->
         <dependency>
