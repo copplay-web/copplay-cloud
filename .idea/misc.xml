@@ -5,11 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/snowy-base/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/copplay-cloud-modules/copplay-app/pom.xml" />
         <option value="$PROJECT_DIR$/pig-upms/pom.xml" />
       </set>
     </option>

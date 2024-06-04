@@ -5,6 +5,62 @@
     <file url="file://$PROJECT_DIR$/copplay-cloud-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-modules/copplay-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-modules/copplay-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-biz-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-biz-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/snowy-plugin-auth-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/snowy-plugin-biz-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/snowy-plugin-biz-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/snowy-plugin-biz-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/snowy-plugin-biz-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/snowy-plugin-client-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/snowy-plugin-client-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/snowy-plugin-client-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/snowy-plugin-client-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/snowy-plugin-dev-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-dev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/snowy-plugin-gen-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/snowy-plugin-gen-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/snowy-plugin-gen-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/snowy-plugin-gen-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/snowy-plugin-mobile-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/snowy-plugin-mobile-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/snowy-plugin-mobile-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/snowy-plugin-mobile-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mobile/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mocker/snowy-plugin-mocker-token-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mocker/snowy-plugin-mocker-token-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mocker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-mocker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-func/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/snowy-plugin-sys-func/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-plugin-sys/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-web-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/copplay-cloud-modules/snowy-web-app/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-register/src/main/java" charset="UTF-8" />

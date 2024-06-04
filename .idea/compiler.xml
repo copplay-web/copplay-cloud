@@ -15,7 +15,6 @@
         <module name="snowy-plugin-auth-func" />
         <module name="copplay-cloud-sentinel" />
         <module name="snowy-plugin-client-func" />
-        <module name="snowy-common" />
         <module name="copplay-cloud-schedule" />
         <module name="snowy-plugin-dev-func" />
         <module name="snowy-plugin-auth-api" />
@@ -23,7 +22,6 @@
         <module name="snowy-plugin-sys-func" />
         <module name="copplay-cloud-router" />
         <module name="snowy-plugin-mobile-func" />
-        <module name="copplay-app" />
         <module name="snowy-plugin-auth-feign" />
         <module name="snowy-plugin-mobile-api" />
         <module name="snowy-plugin-dev-feign" />
@@ -38,9 +36,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="copplay-app" target="17" />
       <module name="snowy-actuator-app" target="17" />
+      <module name="snowy-base" target="17" />
+      <module name="snowy-common" target="17" />
       <module name="snowy-gateway-app" target="17" />
+      <module name="snowy-modules" target="17" />
       <module name="snowy-nacos-app" target="1.8" />
+      <module name="snowy-plugin" target="17" />
       <module name="snowy-sentinel-app" target="1.8" />
       <module name="snowy-server" target="17" />
       <module name="snowy-xxl-job-app" target="1.8" />

@@ -4,6 +4,5 @@
     <file url="file://$PROJECT_DIR$/copplay-cloud-register/src/main/resources/META-INF/nacos-db-snowy-config-init.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-register/src/main/resources/META-INF/nacos-db.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/copplay-cloud-schedule/src/main/resources/db/tables_xxl_job.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/snowy-modules/snowy-web-app/src/main/resources/_sql/snowy_cloud_mysql.sql" dialect="MySQL" />
   </component>
 </project>
