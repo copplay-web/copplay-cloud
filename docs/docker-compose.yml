@@ -1,0 +1,74 @@
+version: '3'
+services:
+  copplay-cloud-mysql:
+    build:
+      context: docs/db
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_ROOT_PASSWORD: root
+    restart: always
+    container_name: copplay-cloud-mysql
+    image: mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - spring_cloud_default
+
+  copplay-cloud-redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    restart: always
+    container_name: copplay-cloud-redis
+    hostname: copplay-cloud-redis
+    networks:
+      - spring_cloud_default
+
+  copplay-register:
+    build:
+      context: ./copplay-register
+    restart: always
+    ports:
+      - 8848:8848
+      - 9848:9848
+    container_name: copplay-register
+    hostname: copplay-register
+    image: copplay-register
+    networks:
+      - spring_cloud_default
+
+  copplay-router:
+    build:
+      context: ./copplay-router
+    restart: always
+    ports:
+      - 9999:9999
+    container_name: copplay-router
+    hostname: copplay-router
+    image: copplay-router
+    networks:
+      - spring_cloud_default
+
+  copplay-system:
+    build:
+      context: ./copplay-system
+    restart: always
+    container_name: copplay-system
+    hostname: copplay-system
+    image: copplay-system
+    networks:
+      - spring_cloud_default
+
+  copplay-admin:
+    build:
+      context: ./copplay-modules/copplay-admin
+    restart: always
+    container_name: copplay-admin
+    hostname: copplay-admin
+    image: copplay-admin
+    networks:
+      - spring_cloud_default
+
+networks:
+  spring_cloud_default:
+    driver: bridge
