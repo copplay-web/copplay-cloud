@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.sys.feign.SysUserFeign;
-import vip.xiaonuo.sys.modular.user.provider.SysUserApiProvider;
+import vip.xiaonuo.sys.provider.SysUserApiProvider;
 
 import java.util.List;
 

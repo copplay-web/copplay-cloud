@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.sys.feign.SysOrgFeign;
-import vip.xiaonuo.sys.modular.org.provider.SysOrgApiProvider;
+import vip.xiaonuo.sys.provider.SysOrgApiProvider;
 
 /**
  * 组织Feign提供者

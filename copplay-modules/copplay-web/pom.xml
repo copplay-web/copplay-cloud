@@ -85,11 +85,11 @@
         </dependency>
 
         <!-- C端功能插件 -->
-        <dependency>
-            <groupId>com.copplay</groupId>
-            <artifactId>snowy-plugin-client-func</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.copplay</groupId>-->
+<!--            <artifactId>snowy-plugin-client-func</artifactId>-->
+<!--            <version>${project.parent.version}</version>-->
+<!--        </dependency>-->
 
         <!-- 开发工具插件 -->
         <dependency>
@@ -106,11 +106,11 @@
         </dependency>
 
         <!-- 代码生成插件 -->
-        <dependency>
-            <groupId>com.copplay</groupId>
-            <artifactId>snowy-plugin-gen-func</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.copplay</groupId>-->
+<!--            <artifactId>snowy-plugin-gen-func</artifactId>-->
+<!--            <version>${project.parent.version}</version>-->
+<!--        </dependency>-->
 
         <!-- 移动端管理插件 -->
         <dependency>

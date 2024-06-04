@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.sys.feign.SysPositionFeign;
-import vip.xiaonuo.sys.modular.position.provider.SysPositionApiProvider;
+import vip.xiaonuo.sys.provider.SysPositionApiProvider;
 
 /**
  * 职位Feign提供者

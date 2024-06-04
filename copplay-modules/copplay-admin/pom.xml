@@ -13,6 +13,7 @@
     <artifactId>copplay-admin</artifactId>
 
     <dependencies>
+
         <!-- 引入系统接口，用于菜单生成等功能 -->
         <dependency>
             <groupId>com.copplay</groupId>
@@ -29,6 +30,10 @@
         <dependency>
             <groupId>com.ibeetl</groupId>
             <artifactId>beetl-framework-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.copplay</groupId>
+            <artifactId>snowy-plugin-auth-api</artifactId>
         </dependency>
     </dependencies>
 </project>

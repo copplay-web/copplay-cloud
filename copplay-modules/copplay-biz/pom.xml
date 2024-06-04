@@ -151,11 +151,11 @@
         </dependency>
 
         <!-- C端功能插件 -->
-        <dependency>
-            <groupId>com.copplay</groupId>
-            <artifactId>snowy-plugin-client-func</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.copplay</groupId>-->
+<!--            <artifactId>snowy-plugin-client-func</artifactId>-->
+<!--            <version>${project.parent.version}</version>-->
+<!--        </dependency>-->
 
         <!-- bootstrap 配置加载 -->
         <dependency>

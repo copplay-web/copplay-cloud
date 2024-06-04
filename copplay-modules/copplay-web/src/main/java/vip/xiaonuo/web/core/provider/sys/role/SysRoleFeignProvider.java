@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import vip.xiaonuo.sys.feign.SysRoleFeign;
-import vip.xiaonuo.sys.modular.role.provider.SysRoleApiProvider;
+import vip.xiaonuo.sys.provider.SysRoleApiProvider;
 
 import java.util.List;
 
